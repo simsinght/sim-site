@@ -1,0 +1,122 @@
+.App {
+}
+
+.Header {
+	// center vertically
+  text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 20vh;
+	width: 100vw;
+  background-color: black;
+	align-content: center;
+	flex-wrap: wrap;
+  color: white;
+}
+
+.headerName {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 50px;
+  color: lightslategray;
+}
+
+.headerText {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: darkseagreen;
+}
+
+.App-Links {
+  text-align: center;
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+  background-color: #222;
+	align-content: center;
+	flex-wrap: wrap;
+  color: white;
+}
+
+.App-Links-Row {
+  padding: 20px 0px;
+  text-align: center;
+  display: flex;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+  background-color: #222;
+	align-content: center;
+	flex-wrap: wrap;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+boxText {
+	margin-left: 50px;
+}
+
+
+/* expanded/linkBox stuff css */
+.expandedBarCol {
+  align-content: center;
+  display: flex;
+}
+
+.expandedBarRow {
+  padding-top: 20px;
+}
+
+/* resume stuff */
+.resume-row {
+  display: flex;
+  text-align: left;
+  align-content: center;
+}
+
+dl {
+  margin-bottom: $spacer;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+dt, dd {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: $spacer;
+}
+
+@media(min-width: 640px) {
+  dt, dd {
+    margin-bottom: 60px;
+  }
+
+  .experience {
+    dt {
+      width: 30%;
+      padding-right: ($spacer * 2);
+  }
+    dd {
+      width: 70%;
+    }
+
+  }
+
+  .education {
+    dt, dd {
+      width: 50%;
+    }
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
